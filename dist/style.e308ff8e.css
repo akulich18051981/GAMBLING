@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2? Family= Lexend:wght@300;400;500;600 & display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Lexend', sans-serif;
+}
+
+.wrapper {
+    font-family: 'Lexend', sans-serif;
+    width: 1920px;
+    height: 100%;
+    background: url(/fon.7c0aa5f9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding-top: 16px;
+}
+
+.headerwrapper {
+    z-index: 5;
+}
+
+.headerLogo {
+    width: 287px;
+    height: 32px;
+    padding-left: 48px;
+}
+
+.headerNav {
+    padding-right: 48px;
+    display: flex;
+    margin: 0 auto;
+    width: 1640px;
+    height: 96px;
+    padding-top: 35px;
+    border-radius: 64px;
+    justify-content: space-between;
+    border-image: linear-gradient(0deg, #478BF9, #478BF9),
+        linear-gradient(0deg, #110A1D, #110A1D);
+    border: 4px solid #478BF9;
+    z-index: 5;
+}
+
+.headerNavHref {
+
+    padding-right: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.headerNavHref:hover {
+    color: #478BF9;
+}
+
+.iconbtn {
+    margin-right: 8px;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+
+.headerButton {
+    display: flex;
+    margin-top: -14px;
+}
+
+.buttonnav {
+    width: 97px;
+    height: 48px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin-left: 14px;
+    padding: 14px;
+    border-radius: 24px;
+    border: 2px solid #9DADF2;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttonnave {
+    display: flex;
+    width: 75px;
+    height: 48px;
+    vertical-align: bottom;
+    color: #FFFFFF;
+    padding: 14px;
+    border-radius: 24px;
+    border: 2px solid #9DADF2;
+    background: none;
+    cursor: pointer;
+}
+
+.buttonnave:hover {
+    background: #478BF9;
+}
+
+.active,
+.buttonnavs,
+.buttonnav:hover {
+    background: #478BF9;
+}
+
+.buttonnavs {
+    border: none;
+    display: flex;
+    color: #FFFFFF;
+    background: none;
+    cursor: pointer;
+}
+
+.mainTitleText {
+    padding-left: 140px;
+    margin-top: 296px;
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF
+}
+
+.mainTitleText2 {
+    padding-bottom: 24px;
+    padding-left: 140px;
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(71, 139, 249, 1);
+}
+
+.mainTitleTexts {
+    padding-left: 140px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.mainTitleBtn {
+    margin-top: 48px;
+    width: 393px;
+    height: 72px;
+    margin-left: 140px;
+    padding: 20px, 72px, 20px, 72px;
+    border-radius: 48px;
+    gap: 8px;
+    background: rgba(71, 139, 249, 1);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(178, 207, 253);
+    cursor: pointer;
+}
+
+.mainTitleBtn:hover {
+    background: rgba(71, 139, 249, 1);
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+}
+
+.mainAnimation {
+    margin-left: 85px;
+    margin-right: 65px;
+    display: flex;
+}
+
+.mainwrapper {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.mainAnimationFirst {
+    width: 100px;
+    height: 1000px;
+    top: -39px;
+    left: 851px;
+    opacity: 0.2px;
+}
+
+.mainAnimationSecond {
+    width: 100px;
+    height: 1000px;
+    top: 8.03px;
+    left: 966.21px;
+    opacity: 0.6px;
+}
+
+.mainAnimationThird {
+    width: 100px;
+    height: 1000px;
+    top: -3px;
+    left: 1084.43px;
+    opacity: 0.4px;
+}
+
+.mainBlog {
+    margin-left: -75px;
+}
+
+.mainBlogTitle {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 24px;
+    margin-left: 130px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.mainBlogScroll {
+    width: 531px;
+    height: 595px;
+    border-radius: 100px;
+    border-image: linear-gradient(0deg, #478BF9, #478BF9),
+        linear-gradient(0deg, #110A1D, #110A1D);
+    border: 3px solid #478BF9;
+    margin-left: 125px;
+}
+
+.mainBlogScrollAll {
+    margin-top: 24px;
+    padding: 24px;
+    height: 543px;
+    overflow-y: auto;
+    margin-right: 16px;
+}
+
+.mainBlogScrollAll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.mainBlogScrollAll::-webkit-scrollbar-track {
+    background: #636363;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #111111 inset;
+    margin: 100px 0;
+}
+
+.mainBlogScrollAll::-webkit-scrollbar-thumb {
+    background: rgba(71, 139, 249, 1);
+    border-radius: 10px;
+    border: 5px solid rgba(71, 139, 249, 1);
+}
+
+.blog {
+    margin: 16px;
+    height: 146px;
+    text-align: left;
+    border-radius: 100px;
+    background: rgba(71, 139, 249, 1);
+    padding: 15px 64px 0 64px;
+}
+
+.blogText {
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+}
+
+.mainAnimationFirst {
+    margin-left: 50px;
+}
+
+.mainAnimationSecond {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mainAnimationThird {
+    margin-right: 10px;
+}
+
+.footerconteyner {
+    width: 100%;
+    height: 100%;
+    padding: 40px, 140px, 24px, 140px;
+    border-radius: 64px 64px 0 0;
+    border: 4px solid #478BF9;
+    border-bottom: #00000000;
+}
+
+.footernav {
+    margin-top: 85px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerNavHref {
+
+    width: 50%;
+    padding-right: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footerNavHref:hover {
+    color: #478BF9;
+    text-decoration: underline;
+}
+
+.footericons {
+    margin-top: -20px;
+    margin-right: 150px;
+    margin-bottom: 24px;
+    padding: 5px;
+
+}
+
+.footericonsHref {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.footericonsimg:hover {
+    border: 1px solid #ffffffc6;
+    border-radius: 50%;
+    margin: -1px
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
